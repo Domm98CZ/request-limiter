@@ -1,0 +1,34 @@
+{
+    "name": "domm98cz/request-limiter",
+    "description": "PHP lightweight request limiter",
+    "keywords": ["request", "limiter", "lightweight"],
+    "homepage": "https://Domm.cz",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Procházka",
+            "email": "domm98cz@gmail.com",
+            "homepage": "https://Domm.cz",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "domm98cz@gmail.com",
+        "docs": "https://github.com/Domm98CZ/request-limiter/README.md"
+    },
+    "require": {
+        "php": ">=8.3",
+        "nette/caching": "^3.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.0.0",
+        "phpstan/phpstan-deprecation-rules": "^1.0.0",
+        "phpstan/phpstan-strict-rules": "^1.0.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
